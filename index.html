@@ -16,5 +16,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <footer style="text-align: center; padding: 1em 0; font-size: 13px; color: #777;">
+  &copy; <span id="year"></span> Anshul Bhilare. All Rights Reserved.  
+  Unauthorized duplication or publication of any materials from this site is expressly prohibited.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
   </body>
 </html>
