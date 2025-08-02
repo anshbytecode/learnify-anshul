@@ -6,6 +6,7 @@ import ProgressDashboard from '../components/ProgressDashboard';
 import FeaturedCourses from '../components/FeaturedCourses';
 import LearningStats from '../components/LearningStats';
 
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
