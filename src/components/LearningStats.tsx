@@ -3,6 +3,7 @@ import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
+
 const LearningStats = () => {
   const stats = [
     { label: 'Courses Completed', value: 12, total: 15, color: 'bg-emerald-500' },
