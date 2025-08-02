@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Users } from 'lucide-react';
 
+
 const FeaturedCourses = () => {
   const featuredCourses = [
     {
