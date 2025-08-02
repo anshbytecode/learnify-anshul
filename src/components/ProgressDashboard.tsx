@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Progress } from "@/components/ui/progress";
 import { BookOpen, Users, User } from 'lucide-react';
 
+
 const ProgressDashboard = () => {
   const currentCourses = [
     { id: 1, title: 'Advanced React Development', progress: 75, nextLesson: 'Hooks Deep Dive', timeLeft: '2h 30m' },
